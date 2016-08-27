@@ -1,0 +1,24 @@
+node tree is Sports & Outdoors › Sports & Fitness › Leisure Sports & Game Room › Table Tennis › Tables
+
+and getprice, is data from http://www.amazon.com/gp/offer-listing/B002HWNVZK/ref=dp_olp_new?ie=UTF8&condition=new
+
+[3:50:05 PM] Neel: now get data is all data that is available on this page..
+[3:50:34 PM] Neel: if getimage is included, meaning, you include HD images ... getdata will only have normal images ..
+
+http://52.8.237.119:5000/add_task?asin=B002HWNVZK&getdata&getimage&getprice
+
+But main node is first category in category tree, final node is last category in category tree ..
+
+And BSR is best seller ranks (sales rank you scraped before .) but here there is 1,2,3  .. So we scrap all possible , available sales rank
+
+https://docs.google.com/spreadsheets/d/1L2yOmOpuz2D0vmaRYbw7PbuVBQbtuOpEviLFbubIq8A/edit#gid=163708622
+
+
+
+
+Access Key ID:
+AKIAIYWGSVATZRMKAIRA
+Secret Access Key:
+dXBmzmLIvP+AcgxwIazrDV2sDjFZH8KZx/qgUmDS
+a489146@trbvn.com
+123456789

@@ -1,0 +1,5 @@
+check the scrapy cfg file and ensure that url is there "http://0.0.0.0:80/"on which scrapyd server is running
+1. start scrapy server by sudo scrapyd at any location
+2. go to spiders/spiders and run scrapy-deploy -p spiders
+3. run the flask server using twistd
+twistd -n web --port 8080 --wsgi main.app

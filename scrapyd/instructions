@@ -1,0 +1,31 @@
+Hi, I finished deploy.
+In this url (http://52.8.237.119/items/spiders/amazon/) you can see results of crawling.
+To run new task you should execute the next command in the terminal:
+curl http://52.8.237.119:80/schedule.json -d project=spiders -d spider=amazon -d searchterms_str=laptop -d page=1
+
+Where searchterms_str may be some search keyword and page - quantity of required pages.
+
+To directly send request from URL
+http://52.8.237.119:5000/add_task?searchterms_str=laptop+hp&page=1
+
+Where searchterms_str is keyword and page - quantity of pages.
+Hi, I finished deploy.
+In this url (http://52.8.237.119/items/spiders/amazon/) you can see results of crawling.
+To run new task you should execute the next command in the terminal:
+curl http://52.8.237.119:80/schedule.json -d project=spiders -d spider=amazon -d searchterms_str=laptop -d page=1
+
+Where searchterms_str may be some search keyword and page - quantity of required pages.
+
+To directly send request from URL
+http://52.8.237.119:5000/add_task?searchterms_str=laptop+hp&page=1
+
+Where searchterms_str is keyword and page - quantity of pages.
+
+
+
+http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=laptop
+http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=laptop
+
+http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={search_term}&rh=i%3Aaps%2Ck%3A{search_term}
+http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=iphone&rh=i%3Aaps%2Ck%3Aiphone
+http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=iphone&rh=i%3Aaps%2Ck%3Aiphone
